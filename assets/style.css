@@ -1,0 +1,162 @@
+ * {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #2E86C1;
+  }
+   
+  .scroll-button{
+    display: inline-flexbox;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section3 {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: flex-start;
+    background-color: #2E86C1;
+  }
+
+  a{
+    text-decoration: none;
+    color:black;
+    transition: border .5s;
+  }
+  
+  a:hover{
+    border: 5px solid #2E86C1;
+    background-color:#772014 ;
+  }
+  header {
+    padding: 5px;
+    text-align: center;
+    background:#8ac4ff;
+    color:black;
+    border: 5px solid white;
+    border-radius: var(border-box);
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background:#8ac4ff;
+    color:black;
+    font-size: 30px;
+    margin-top: auto;
+    border: 5px solid white;
+  }
+  
+  .product-image {
+    width: 100%;
+  }
+  
+  .avatar{
+    display: flex;
+    width: 95%;
+    height: 500px;
+    margin: 1% auto;
+    border: 5px solid white;
+    border-radius:var(border-box);
+    background-color:#8ac4ff;
+    text-align: right;
+  }
+  
+  .AboutMe {
+    display: flex;
+    width: 95%;
+    height: 300px;
+    margin: 1% auto;
+    border: 5px solid white;
+    border-radius:var(border-box);
+    background-color: #8ac4ff;
+    font-size: 20px;
+  }
+  
+  .Work {
+    display: flex;
+    width: 95%;
+    height: 300px;
+    margin: 1% auto;
+    border: 5px solid white;
+    border-radius:var(border-box);
+    background-color: #8ac4ff;
+    font-size: 20px;
+  }
+
+  .work a{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ContactMe {
+    display: flex;
+    width: 95%;
+    height: 300px;
+    margin: 1% auto;
+    border: 5px solid white;
+    border-radius:var(border-box);
+    background-color: #8ac4ff;
+    font-size: 20px;
+  }
+  
+  .Resume{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    margin: 1% auto;
+    border: 5px solid white;
+    border-radius:var(border-box);
+    background-color: #8ac4ff;
+    font-size: 20px;
+  }
+  
+  .product button {
+    font-size: 150%;
+  }
+  
+  .product-slideshow {
+    display: flex;
+  }
+  
+  .Yvette { 
+    width: 400px;
+    height: 400px;
+  }
+  
+  @media screen and (max-width: 762px) {
+    main,
+    nav,
+    .product {
+      flex-direction: column;
+    }
+
+    .product-slideshow button {
+      /* Removes the slideshow buttons from the document flow */
+      display: none;
+    }
+    .product-details {
+      margin-left: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
